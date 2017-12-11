@@ -1,0 +1,17 @@
+.footers	{
+	height: 68px;
+	margin-top: -68px;
+	background-color: var(--black_2);
+}
+.footer-container {
+	max-width: 1200px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin: 0 auto;
+}
+.footer-container p {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 25px;
+}

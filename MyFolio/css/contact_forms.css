@@ -1,0 +1,78 @@
+.contact_form {
+	background-color: var(--black_1);
+}
+.form-container {
+	max-width: 1200px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin: 0 auto;
+}
+.forms-center {
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+
+}
+.button-center {
+	display: flex;
+	justify-content: center;
+	padding-top: 66px;
+	padding-bottom: 66px;
+}
+.button {
+	width: 197px;
+	height: 49px;
+	padding: 0;
+	border: 0;
+	background-color: var(--yellow);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.label p {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: ;
+	padding-top: 66px;
+	padding-bottom: 16px;
+	line-height: 1.25;
+}
+.input {
+	width: 639px;
+	height: 20px;
+	border: 0;
+	padding: 0;
+	color: white;
+	background-color: var(--black_1);
+}
+.input-text {
+	width: 639px;
+	height: 100px;
+	border: 0;
+	padding: 0;
+	color: white;
+	background-color: var(--black_1);
+	resize: none; /*запрет изменения размера*/
+}
+.line_input {
+	height: 10px;
+	width: 639px;
+	border-top: 1px solid white;
+	margin-right: auto;
+	padding-left: auto;
+}
+.line_input-message {
+	height: 10px;
+	width: 639px;
+	border-top: 1px solid white;
+	margin-right: auto;
+	padding-left: auto;
+}
+.fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0 auto;
+	
+}

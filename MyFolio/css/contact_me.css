@@ -1,0 +1,25 @@
+.contact_me-container {
+	clear: both;
+}
+.contact_me {
+	max-width: 1300px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin: 0 auto;
+}
+.contact_me-text {
+	text-align: center;
+}
+.contact_me-text h2 {
+	color: var(--blue);
+	font-size: 46px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	padding-top: 85px;
+}
+.contact_me-text p {
+	color: var(--grey_2);
+	padding-bottom: 30px;
+	line-height: 2;
+}

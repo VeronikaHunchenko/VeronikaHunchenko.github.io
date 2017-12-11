@@ -1,0 +1,49 @@
+.welcome {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 100vh;
+}
+.welcome-text {
+	color: var(--white);
+	text-align: center;
+	padding-top: 200px;
+}
+.welcome-text h1{
+	text-transform: uppercase;
+	letter-spacing: 29px;
+	font-size: 68px;
+}
+.welcome-text h2 {
+	font-size: 30px;
+}
+.welcome-text p {
+	font-size: 18px;
+}
+.button-center {
+	display: flex;
+	justify-content: center;
+}
+.welcome-button {
+	width: 197px;
+	height: 49px;
+	background-color: var(--yellow);
+	border: 0;
+	padding: 0;
+
+}
+.welcome-button--text {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.curly {
+	width: 109px;
+	height: 16px;
+
+}
+.curly-center {
+	display: flex;
+	justify-content: center;
+	padding-top: 46px;
+}

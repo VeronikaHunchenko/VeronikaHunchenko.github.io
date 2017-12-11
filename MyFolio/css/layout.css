@@ -1,0 +1,38 @@
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	padding-bottom: 68px;
+}
+.container {
+	max-width: 1200px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*.screen {
+	width: 100%;
+	overflow: hidden;
+}
+
+.screen--welcome {
+	border-top: 5px solid var(--orange);
+	background-color: var(--blue);
+}
+.screen--about {
+	overflow: visible;
+}
+
+.screen--footer	{
+	height: 68px;
+	margin-top: -68px;
+	background-color: var(--blue);
+}*/
+

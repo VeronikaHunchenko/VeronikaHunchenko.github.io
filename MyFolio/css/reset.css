@@ -1,0 +1,11 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,800";
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", "Open Sans Extrabold", sans-serif;
+}
+
+/*a {
+	color: inherit;
+}*/
