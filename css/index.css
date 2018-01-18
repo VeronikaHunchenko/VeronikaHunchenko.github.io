@@ -26,8 +26,8 @@ h6,
   background: #DAE3E7;
 }
 
-.container {
-  background: #DAE3E7;
+.wraper {
+  background-color: #DAE3E7;
 }
 
 .header {
@@ -166,6 +166,8 @@ h6,
 
 .project-img img {
   margin-left: 15px;
+  width: 336px;
+  height: 181px;
 }
 
 .project-img a {
@@ -177,10 +179,12 @@ h6,
   font-size: 13px;
   color: #999;
   font-weight: 600;
+  padding-left: 106px;
 }
 
 .media-body .title {
   margin-top: 20px;
+  padding-left: 106px;
 }
 
 .section .section-inner .project-img {
@@ -192,18 +196,18 @@ h6,
 }
 
 .section .section-inner .ribbon {
-  position: relative;
+  position: absolute;
   overflow: hidden;
-  right: -24px;
-  bottom: 25px;
+  right: 43px;
+  bottom: 165px;
   width: 110px;
   height: 110px;
 }
 
 .section .section-inner .ribbon .text {
   font-family: 'Montserrat', sans-serif;
-  position: absolute;
-  left: 7px;
+  position: relative;
+  left: 8px;
   top: 14px;
   width: 136px;
   padding: 10px 10px;
@@ -235,5 +239,28 @@ h6,
 
 .section .section-inner .ribbon .text:after {
   right: 0;
+}
+
+@media (max-width: 767px) {
+  .header {
+    text-align: center;
+    display: inline-block;
+  }
+  .header .profile-image {
+    margin: 0 auto;
+  }
+  .header .profile-content {
+    text-align: center;
+  }
+  .project-img img {
+    width: 168px;
+    height: 90px;
+  }
+  .subtitle {
+    padding-left: 20px;
+  }
+  .media-body .title {
+    padding-left: 20px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
