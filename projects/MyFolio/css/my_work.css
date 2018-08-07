@@ -13,7 +13,6 @@
 	color: var(--grey_2);
 	padding-bottom: 50px;
 }
-
 .my_work-photos {
 	display: flex;
  	align-items: center;
@@ -25,13 +24,11 @@
   	text-decoration: none;
   	color: inherit;
   	overflow: hidden;
-  	
 }
 .block-photos--img {
 	width: 100%;
   	height: auto;
   	vertical-align: middle;
-
 }
 .block-fronts {
 	position: absolute;
